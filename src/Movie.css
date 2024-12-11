@@ -1,0 +1,28 @@
+.movie-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+    padding: 15px;
+    width: 300px;
+    transition: transform 0.2s;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie-title {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .movie-poster {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .movie-details {
+    color: #555;
+  }
+  
